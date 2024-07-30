@@ -61,3 +61,13 @@ mutation { # create new user
   }
 }
 ```
+
+## GraphQL Clients
+
+Your front-end application will need a `GraphQL client` to communicate with a GraphQL server. You can also use a raw browser's `fetch` to post data to the GraphQL server.
+
+Popular GraphQL clients (you can add your own):
+
+- [FetchQL](https://github.com/gucheen/FetchQL)
+- [lokka](https://github.com/kadirahq/lokka)
+- [apollo-client](https://github.com/apollostack/apollo-client)
